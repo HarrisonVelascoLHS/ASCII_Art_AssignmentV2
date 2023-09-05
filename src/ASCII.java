@@ -1,5 +1,32 @@
-public class Main {
-    public static void main(String[] args) {
-        System.out.println("Hello world!");
+public class ASCII
+{
+    public static void main(String[] args)
+    {
+        System.out.print("""
+                            ____________________
+                            |                   |        __
+                            |  [_] [_] [_] [_]  |     /\\/  |_
+                            |  [_] [_] [_] [_]  |     \\     _\\
+                            |  [_] [_] [_] [_]  |  ___/\\____|
+                            |  [_] [_] [_] [_]  |_/#\\##\\/
+                """);
+        System.out.print("""
+                          __|                   |#\\#/  \s
+                         /#\\|_   [] [] [] []   _|  \s
+                """);
+        System.out.print("""
+                        /#//  |               |
+                       |\\/|_  | (L)(T) (/)(-) |
+                  _   /  __ \\ |_______________|
+                """);
+        System.out.print("""
+                 (_)|###/  |##>      | |\s
+                       \\___/         |_|
+                """);
+        System.out.print("""
+                                    /###\\
+                                   {#( )#}
+                                    \\###/
+                """);
     }
 }
